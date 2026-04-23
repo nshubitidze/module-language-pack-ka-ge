@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright (c) 2026 Shubo. Licensed under the MIT License — see LICENSE.
+ */
+-->
+<language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="urn:magento:framework:App/Language/package.xsd">
+    <code>ka_GE</code>
+    <vendor>Shubo</vendor>
+    <package>ka_GE</package>
+</language>

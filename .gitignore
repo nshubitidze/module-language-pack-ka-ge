@@ -1,0 +1,13 @@
+/vendor/
+/var/
+/.idea/
+/.vscode/
+/composer.lock
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Regeneratable dev artifacts (not shipped; contributors can recreate via `python3 _translate.py`)
+# _phrases-raw.csv is ~1.2 MB and comes from `bin/magento i18n:collect-phrases --magento`
+_phrases-raw.csv

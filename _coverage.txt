@@ -1,0 +1,94 @@
+# Shubo_LanguagePack_Ka_GE coverage report
+Total unique source phrases:     13520
+Total translated rows:           1678
+Overall coverage:                12.41%
+P1 modules with translations:    30
+Non-P1 modules with translations: 93
+
+## P1 module coverage (storefront + checkout — human-reviewed dictionary)
+| Module | Translated | Total | % |
+|---|---:|---:|---:|
+| Magento_Sales | 134 | 851 | 15.7% |
+| Magento_Customer | 85 | 610 | 13.9% |
+| Magento_Catalog | 81 | 864 | 9.4% |
+| Magento_Checkout | 63 | 224 | 28.1% |
+| Shubo_Payout | 48 | 342 | 14.0% |
+| Shubo_Merchant | 45 | 196 | 23.0% |
+| Magento_Ui | 35 | 229 | 15.3% |
+| Magento_Shipping | 32 | 187 | 17.1% |
+| Magento_Review | 29 | 137 | 21.2% |
+| Magento_Theme | 29 | 207 | 14.0% |
+| Magento_SalesRule | 25 | 190 | 13.2% |
+| Shubo_ShippingCore | 23 | 120 | 19.2% |
+| Magento_Tax | 21 | 179 | 11.7% |
+| Magento_Wishlist | 21 | 137 | 15.3% |
+| Magento_Newsletter | 19 | 157 | 12.1% |
+| Magento_Cms | 18 | 187 | 9.6% |
+| Shubo_Commission | 16 | 49 | 32.7% |
+| Magento_Search | 13 | 88 | 14.8% |
+| Magento_Payment | 12 | 71 | 16.9% |
+| Shubo_BogPayment | 12 | 152 | 7.9% |
+| Shubo_CookieConsent | 12 | 29 | 41.4% |
+| Magento_GiftMessage | 11 | 44 | 25.0% |
+| Shubo_TbcPayment | 10 | 204 | 4.9% |
+| Magento_CatalogSearch | 8 | 53 | 15.1% |
+| Magento_Contact | 7 | 26 | 26.9% |
+| Magento_Quote | 6 | 87 | 6.9% |
+| Magento_Directory | 5 | 52 | 9.6% |
+| Shubo_MerchantCatalog | 4 | 15 | 26.7% |
+| Magento_OfflinePayments | 3 | 23 | 13.0% |
+| Magento_ProductAlert | 2 | 41 | 4.9% |
+
+## Non-P1 module coverage (auto-matched via shared dictionary — needs human pass)
+| Module | Translated | Total | % |
+|---|---:|---:|---:|
+| Magento_Backend | 66 | 516 | 12.8% |
+| Magento_Paypal | 64 | 662 | 9.7% |
+| Magento_Reports | 49 | 227 | 21.6% |
+| Magento_PaymentServicesPaypal | 42 | 270 | 15.6% |
+| PayPal_Braintree | 39 | 383 | 10.2% |
+| Magento_Multishipping | 30 | 112 | 26.8% |
+| Magento_PageBuilder | 30 | 337 | 8.9% |
+| Magento_Bundle | 28 | 113 | 24.8% |
+| Magento_ConfigurableProduct | 23 | 157 | 14.6% |
+| Magento_Downloadable | 21 | 128 | 16.4% |
+| Magento_User | 21 | 144 | 14.6% |
+| Magento_AdobeStockImageAdminUi | 20 | 91 | 22.0% |
+| Magento_MediaGalleryUi | 18 | 112 | 16.1% |
+| Magento_CatalogRule | 15 | 87 | 17.2% |
+| Magento_GroupedProduct | 14 | 37 | 37.8% |
+| Magento_InventoryAdminUi | 14 | 75 | 18.7% |
+| Magento_UrlRewrite | 14 | 75 | 18.7% |
+| Magento_Widget | 14 | 80 | 17.5% |
+| Magento_ImportExport | 13 | 149 | 8.7% |
+| Magento_Integration | 13 | 145 | 9.0% |
+| Magento_OfflineShipping | 13 | 58 | 22.4% |
+| Magento_InventoryCatalogAdminUi | 12 | 71 | 16.9% |
+| Magento_InventoryInStorePickupFrontend | 12 | 30 | 40.0% |
+| Magento_OrderCancellationUi | 12 | 19 | 63.2% |
+| Magento_AsynchronousOperations | 11 | 51 | 21.6% |
+| Magento_Email | 11 | 91 | 12.1% |
+| Magento_Config | 10 | 126 | 7.9% |
+| Magento_InventoryConfigurableProductAdminUi | 8 | 45 | 17.8% |
+| Magento_Usps | 8 | 148 | 5.4% |
+| Magento_AdminNotification | 7 | 53 | 13.2% |
+| Magento_Eav | 7 | 159 | 4.4% |
+| Magento_MediaGalleryCatalogUi | 7 | 24 | 29.2% |
+| Magento_SendFriend | 7 | 44 | 15.9% |
+| Magento_TwoFactorAuth | 7 | 107 | 6.5% |
+| Magento_Vault | 7 | 18 | 38.9% |
+| Magento_Weee | 7 | 32 | 21.9% |
+| Magento_AdvancedSearch | 6 | 26 | 23.1% |
+| Magento_Backup | 6 | 80 | 7.5% |
+| Magento_CatalogWidget | 6 | 20 | 30.0% |
+| Magento_Rule | 6 | 36 | 16.7% |
+| Magento_CatalogInventory | 5 | 79 | 6.3% |
+| Magento_CheckoutAgreements | 5 | 41 | 12.2% |
+| Magento_InstantPurchase | 5 | 21 | 23.8% |
+| Magento_LayeredNavigation | 5 | 31 | 16.1% |
+| Magento_ProductVideo | 5 | 46 | 10.9% |
+| Magento_Security | 5 | 40 | 12.5% |
+| Magento_Sitemap | 5 | 67 | 7.5% |
+| Magento_Variable | 5 | 33 | 15.2% |
+| Magento_AdobeIms | 4 | 14 | 28.6% |
+| Magento_Dhl | 4 | 88 | 4.5% |
