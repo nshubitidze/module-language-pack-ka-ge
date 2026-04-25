@@ -1,8 +1,18 @@
+# Secrets / credentials — never commit
+.env
+.env.*
+*.token
+secrets/
+
+# Build / runtime artifacts
 /vendor/
 /var/
+/generated/
+/composer.lock
+
+# IDE / OS
 /.idea/
 /.vscode/
-/composer.lock
 *.swp
 *.swo
 .DS_Store
