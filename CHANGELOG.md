@@ -4,6 +4,15 @@ All notable changes to `shubo/language-pack-ka-ge` are documented here. This pro
 
 ## [Unreleased]
 
+## [1.0.0] — 2026-04-26
+
+### Fixed
+
+- **[HIGH] `%name,` placeholder broken in 22 transactional emails** — 6 CSV rows under `Magento_Customer`, `Magento_ProductAlert`, `Magento_Sales`, `Magento_SendFriend`, `Magento_Theme`, `Magento_User` were translating `%name` to `%სახელი`, causing Magento's positional substitution to emit the literal token instead of the customer's first name. Changed all six to `"%name,","%name,"`.
+- **[HIGH] `Shubo_MerchantProvisioning::merchant_welcome.html` rendered 100% English to Georgian merchants** — added 13 missing rows to `ka_GE.csv` under `Shubo_MerchantProvisioning` scope: greeting with `%company_name`, approval body copy, section headings (`Your Admin Credentials`, `Getting Started`), table labels (`Admin Panel URL`, `Storefront URL`), security warning, all 5 ordered-list steps, and closing support line. Subject line was also hardcoded English — wrapped in `{{trans "…"}}` and added corresponding CSV row.
+- **[MEDIUM] `Shipping Info` heading rendered English** — added `"Shipping Info","მიწოდების ინფორმაცია","module","Magento_Sales"` to fix the mixed-language Billing/Shipping two-column block in order/shipment/invoice/credit-memo emails.
+- **[MEDIUM] Conditional contact-block snippets untranslated** — added `or call us at <a href="tel:%store_phone">%store_phone</a>` and `Our hours are <span class="no-link">%store_hours</span>.` under `Magento_Sales`; previously dormant (store phone/hours not configured on duka.ge) but would have leaked English the moment either field was populated.
+
 ## [0.1.0-alpha] — 2026-04-23
 
 ### Added
@@ -21,7 +30,8 @@ All notable changes to `shubo/language-pack-ka-ge` are documented here. This pro
 - TBC/BOG payment-config labels (admin-only HTML-embedded strings) are ~5% translated; those admin configuration screens remain largely English until 0.2.0.
 - Total source-phrase coverage is ~12%. This is by design (omit-unknown > wrong-translation).
 
-[Unreleased]: https://github.com/nshubitidze/module-language-pack-ka-ge/compare/v0.1.0-alpha...HEAD
+[Unreleased]: https://github.com/nshubitidze/module-language-pack-ka-ge/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/nshubitidze/module-language-pack-ka-ge/compare/v1.0.0-rc...v1.0.0
 [0.1.0-alpha]: https://github.com/nshubitidze/module-language-pack-ka-ge/releases/tag/v0.1.0-alpha
 
 ## [1.0.0-RC1] — 2026-04-26
