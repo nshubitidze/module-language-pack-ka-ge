@@ -3,7 +3,6 @@
     "description": "Georgian (Georgia) — ka_GE — language pack for Magento 2.4.8+. Storefront + checkout + Shubo marketplace modules.",
     "type": "magento2-language",
     "license": "MIT",
-    "version": "1.0.0-rc1",
     "keywords": [
         "magento",
         "magento2",

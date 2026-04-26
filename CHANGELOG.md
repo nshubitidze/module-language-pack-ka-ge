@@ -23,3 +23,31 @@ All notable changes to `shubo/language-pack-ka-ge` are documented here. This pro
 
 [Unreleased]: https://github.com/nshubitidze/module-language-pack-ka-ge/compare/v0.1.0-alpha...HEAD
 [0.1.0-alpha]: https://github.com/nshubitidze/module-language-pack-ka-ge/releases/tag/v0.1.0-alpha
+
+## [1.0.0-RC1] — 2026-04-26
+
+### Added
+
+- **Production-quality translation pass**: 15,276 strings across 201 modules translated into native Georgian via structured translation pipeline with 4-pass quality review.
+- **92% overall coverage** (up from 12% in 0.1.0-alpha); 97.7% on P1 storefront-visible modules.
+- Full parity with Mageplaza de_DE structural reference: same key set, same module coverage.
+- Georgian style guide at `docs/style-guide.md`: formal `თქვენ` register, brand preservation rules, canonical term table, anti-patterns, placeholder fidelity rules.
+- Coverage report at `docs/coverage-report.md`: per-module breakdown, acceptance gates.
+- 4-pass quality review (`docs/review-spot-check.md`): 91% pass rate from independent Tbilisi-shopper reviewer.
+- `docs/reviewer-signoff.md`: formal APPROVE from automated reviewer.
+- `README.ka.md`: Georgian-language installation guide.
+
+### Fixed
+
+- `გაგზავნა` (verbal noun "sending") incorrectly used for "shipment" noun — replaced with `გზავნილი` throughout Sales module.
+- `ელემენტი` replaced with `ნივთი` for shopping cart/wishlist user-facing strings.
+- Newsletter `ნიუსლეტერი` anglicism replaced with `სიახლეების გამოწერა`.
+- `კრედიტ-მემო` standardized to `საკრედიტო მემო` throughout.
+- "Back to Sign In" → `შესვლის გვერდზე დაბრუნება` (correct locative).
+
+### Changed
+
+- Single monolithic CSV (`ka_GE.csv`) with 4-column format: English, Georgian, "module", ModuleName.
+- `composer.json` name updated to `shubodev/language-pack-ka-ge` (Packagist vendor namespace).
+
+[1.0.0-RC1]: https://github.com/nshubitidze/module-language-pack-ka-ge/releases/tag/v1.0.0-rc
