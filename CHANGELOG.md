@@ -4,6 +4,12 @@ All notable changes to `shubo/language-pack-ka-ge` are documented here. This pro
 
 ## [Unreleased]
 
+## [1.0.1] — 2026-04-26
+
+### Fixed
+
+- **[MEDIUM] Hardcoded-bilingual pattern removed from 5 merchant/payout email templates** — `Shubo_MerchantProvisioning::merchant_suspension_{notice,reminder}.html`, `merchant_access_revoked.html`, `Shubo_Payout::settlement_{invoice,reminder}.html` previously inlined both English and Georgian on every line (`{{trans "English"}} / hardcoded Georgian`). Added 24 rows under `Shubo_MerchantProvisioning` scope and 15 rows under `Shubo_Payout` scope to `ka_GE.csv`; removed inline Georgian strings from all 5 templates. Magento's translation pipeline now drives locale selection correctly; the duplicate-render bug (Georgian twice when CSV is populated) is resolved.
+
 ## [1.0.0] — 2026-04-26
 
 ### Fixed
@@ -30,7 +36,8 @@ All notable changes to `shubo/language-pack-ka-ge` are documented here. This pro
 - TBC/BOG payment-config labels (admin-only HTML-embedded strings) are ~5% translated; those admin configuration screens remain largely English until 0.2.0.
 - Total source-phrase coverage is ~12%. This is by design (omit-unknown > wrong-translation).
 
-[Unreleased]: https://github.com/nshubitidze/module-language-pack-ka-ge/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/nshubitidze/module-language-pack-ka-ge/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/nshubitidze/module-language-pack-ka-ge/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/nshubitidze/module-language-pack-ka-ge/compare/v1.0.0-rc...v1.0.0
 [0.1.0-alpha]: https://github.com/nshubitidze/module-language-pack-ka-ge/releases/tag/v0.1.0-alpha
 
