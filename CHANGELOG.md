@@ -4,6 +4,17 @@ All notable changes to `shubo/language-pack-ka-ge` are documented here. This pro
 
 ## [Unreleased]
 
+## [1.1.1] — 2026-05-01
+
+### Changed
+
+- Removed obsolete `dev@shubo.ge` maintainer email from `composer.json` (the address did not exist). Contact channel is now exclusively GitHub Issues.
+- Updated README install instructions and Packagist badge to the canonical `shubo/language-pack-ka-ge` package name (was stale `shubodev/`).
+
+### Added
+
+- `.gitattributes` with `_dev/** linguist-vendored` so GitHub Linguist (and Packagist) classify this repository correctly. Internal translation tooling under `_dev/` (~100 KB of Python helper scripts) was previously dominating language-detection statistics; it is now excluded from stats while remaining available in source control.
+
 ## [1.1.0] — 2026-05-01
 
 ### Changed

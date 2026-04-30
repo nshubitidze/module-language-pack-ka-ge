@@ -1,0 +1,6 @@
+# Internal translation tooling — exclude from GitHub Linguist language stats
+# so the repo is correctly classified as PHP/CSV (Magento language pack)
+# instead of Python (the helper scripts).
+_dev/**          linguist-vendored
+docs/**          linguist-documentation
+*.csv            linguist-detectable

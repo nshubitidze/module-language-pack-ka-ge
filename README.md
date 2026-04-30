@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Magento](https://img.shields.io/badge/Magento-2.4.x-8a2be2.svg)](https://magento.com)
 [![Coverage](https://img.shields.io/badge/coverage-92%25-brightgreen.svg)](./docs/coverage-report.md)
-[![Packagist](https://img.shields.io/badge/packagist-shubodev%2Flanguage--pack--ka--ge-orange.svg)](https://packagist.org/packages/shubodev/language-pack-ka-ge)
+[![Packagist](https://img.shields.io/badge/packagist-shubo%2Flanguage--pack--ka--ge-orange.svg)](https://packagist.org/packages/shubo/language-pack-ka-ge)
 
 ---
 
@@ -20,7 +20,7 @@ Coverage: **15,276 translation strings across 201 modules**, 92% translated, 97.
 ## Installation (Composer — recommended)
 
 ```bash
-composer require shubodev/language-pack-ka-ge
+composer require shubo/language-pack-ka-ge
 bin/magento setup:upgrade
 bin/magento setup:static-content:deploy ka_GE -f
 bin/magento config:set general/locale/code ka_GE --scope=stores --scope-code=default
@@ -74,7 +74,7 @@ We welcome corrections from native Georgian speakers. Before submitting a PR, pl
 
 ## About duka.ge
 
-This pack is maintained by **[duka.ge](https://duka.ge)** — a Georgian SME marketplace built on Magento 2. We open-source our localization work to help other Georgian Magento merchants. For questions, open an issue or email `dev@shubo.ge`.
+This pack is maintained by **[duka.ge](https://duka.ge)** — a Georgian SME marketplace built on Magento 2. We open-source our localization work to help other Georgian Magento merchants. For questions, please [open a GitHub Issue](https://github.com/nshubitidze/module-language-pack-ka-ge/issues).
 
 ---
 
