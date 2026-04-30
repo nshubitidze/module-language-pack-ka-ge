@@ -4,6 +4,12 @@ All notable changes to `shubo/language-pack-ka-ge` are documented here. This pro
 
 ## [Unreleased]
 
+## [1.1.0] — 2026-05-01
+
+### Changed
+
+- **Vendor namespace realigned to `shubo/`** — composer package name renamed from `shubodev/language-pack-ka-ge` to `shubo/language-pack-ka-ge` to match the canonical Shubo vendor namespace used by all other public modules (`shubo/module-tbc-payment`, `shubo/module-bog-payment`, `shubo/module-shipping-core`, `shubo/module-shipping-shippo`). No code or translation content changed. Not yet on Packagist, so no live consumers are affected.
+
 ## [1.0.1] — 2026-04-26
 
 ### Fixed
