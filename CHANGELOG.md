@@ -4,6 +4,12 @@ All notable changes to `shubo/language-pack-ka-ge` are documented here. This pro
 
 ## [Unreleased]
 
+## [1.1.2] — 2026-05-01
+
+### Changed
+
+- Removed redundant `"version"` field from `composer.json` (Packagist now derives version from git tags). Eliminates `composer validate --strict` warnings. No functional change.
+
 ## [1.1.1] — 2026-05-01
 
 ### Changed
