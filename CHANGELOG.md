@@ -4,6 +4,16 @@ All notable changes to `shubo/language-pack-ka-ge` are documented here. This pro
 
 ## [Unreleased]
 
+## [1.2.0] — 2026-05-03
+
+### Added
+
+- **19 new ka_GE entries under `Shubo_ShippingNotification`** for the new tracking-email module (`Shubo_ShippingNotification`). Covers the 4 transactional emails (`shipment_in_transit`, `shipment_out_for_delivery`, `shipment_delivered`, `shipment_exception`) — subjects, body copy, button labels, and the support-contact line.
+
+### Changed
+
+- Migrated `Shubo_ShippingNotification` interpolated strings from positional `%1` placeholders to named placeholders (`%order_id`, `%name`, `%email`). Magento's `{{trans}}` filter in transactional-email subject and body contexts only resolves named parameters — positional `%1` rendered literally. Affected source/translation pairs: 4 subject lines, the `Hi %name,` greeting, and the `Need help? Contact us at %email.` footer.
+
 ## [1.1.2] — 2026-05-01
 
 ### Changed
